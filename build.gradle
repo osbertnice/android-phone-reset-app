@@ -1,0 +1,24 @@
+// Apply the Java plugin
+plugins {
+    id 'java'
+}
+
+// Set the group and version
+group = 'com.example'
+version = '1.0-SNAPSHOT'
+
+// Define repositories
+repositories {
+    mavenCentral()
+}
+
+// Define dependencies
+dependencies {
+    // Add your dependencies here
+    testImplementation 'junit:junit:4.13.2'
+}
+
+// Define the main class
+application {
+    mainClassName = 'com.example.Main'
+}
